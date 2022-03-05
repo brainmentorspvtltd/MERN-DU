@@ -1,0 +1,116 @@
+var a ;
+undefined
+typeof a;
+'undefined'
+a=100;
+100
+typeof a;
+'number'
+a=10.20;
+10.2
+typeof a;
+'number'
+a=1000000000;
+1000000000
+typeof a;
+'number'
+a=100 + 200;
+300
+typeof a;
+'number'
+a='Hello';
+'Hello'
+typeof a;
+'string'
+a = true;
+true
+typeof a;
+'boolean'
+a = [10,20,30];
+(3) [10, 20, 30]
+typeof a;
+'object'
+a instanceof Array;
+true
+const MAX  = 100;
+undefined
+typeof MAX;
+'number'
+MAX = 200;
+VM563:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:5
+(anonymous) @ VM563:1
+MAX= MAX + 1;
+VM593:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:4
+(anonymous) @ VM593:1
+function add(x,y){
+        return x + y;
+}
+undefined
+typeof add;
+'function'
+add(10,20);
+30
+add(true, true);
+2
+add("10","20");
+'1020'
+add(10,true);
+11
+var t = true + true;
+undefined
+typeof t;
+'number'
+true + true + true;
+3
+10 + "hello":
+VM1160:1 Uncaught SyntaxError: Unexpected token ':'
+10 + "hello";
+'10hello'
+add();
+NaN
+undefined + undefined;
+NaN
+100 + 200;
+300
+typeof NaN;
+'number'
+var counter ;
+undefined
+typeof counter;
+'undefined'
+counter+1;
+NaN
+counter = 0;
+0
+counter+1;
+1
+isNaN(10+undefined);
+true
+isNaN(10+undefined)?0:10;
+0
+add();
+NaN
+function add(x=0,y=0){
+        return x + y;
+}
+undefined
+add();
+0
+const mul = (x,y)=>x*y;
+undefined
+typeof mul;
+'function'
+mul(10,2);
+20
+const adder = (x,y)=>{ // Curly Bracket need to specify for multi line
+    console.log('X is ',x , ' and y is ',y);
+    return x + y;  // In case of Multi line return need to write
+}
+undefined
+typeof adder;
+'function'
+adder(10,4);
+VM2359:2 X is  10  and y is  4
+14
