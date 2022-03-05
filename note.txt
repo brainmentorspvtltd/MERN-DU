@@ -1,0 +1,25 @@
+JavaScript - Client Side Language
+Loosely or Weakly Type Language
+Dynamically Typed Language
+
+JS No data type (Internally)
+
+1. var - variable declare
+2. const - constant declare
+
+
+
+FrontEnd Web Dev
+1. SPA
+2. Component Based Development
+Lead on No-1 ReactJS
+What is ReactJS
+1. It is a View Library created by Facebook .
+2. REACT JS use JavaScript as a Primary Language.
+
+
+
+BackEnd Web Dev - Node JS
+NodeJS - Runtime Env.
+Primary Language is JavaScript
+
