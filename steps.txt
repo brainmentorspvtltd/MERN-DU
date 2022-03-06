@@ -1,0 +1,44 @@
+Step - 1 Install the Node JS
+https://nodejs.org/en/
+
+Step-2 Check the Installation
+node -v
+npm -v
+npx -v
+
+
+Note: Using BootStrap for Look and Feel, BootStrap is build by Twitter and make it open source. Mobile Friendly. (Responsive)
+ReactJS - Component Based development , Build by FaceBook
+
+Step-3 Create React Project
+npx create-react-app <appname>
+e.g npx create-react-app musicapp-frontend
+
+Step-4 Need a Code Editor. We are going to use VSCode.
+a) VSCode install
+b) Extensions - Cobalt2 (For Themes) , VsCodeIcons (For Icons Theme), React Snippets
+
+
+Step-5 Writing First Component
+Component are either Functions or Class
+App is a Root Component
+const App = ()=>{
+  // this function is returning JSX
+  return (<h1>Hello React JS</h1>)
+}
+
+
+
+Step-5 Connect App Component with index.html (div id=‘root’) with the help of index.js
+index.js - it is a bridge file.
+import {App} from './App';
+import ReactDOM from 'react-dom';
+// document  - HTML Page
+var div = document.getElementById('root'); // Lookup Div that id is root
+ReactDOM.render(<App/>, div); // Place App inside a div tag
+
+
+
+Bring the Songs from the iTunes
+ https://itunes.apple.com/search?term=sonu nigam&limit=10
+
