@@ -1,0 +1,5 @@
+1. Get the TextBox Value 
+Hint: useRef Hook
+
+2. Click on button
+Hint : Attach click event on button and then call a function to get the value of search text box.
